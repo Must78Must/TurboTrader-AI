@@ -1,0 +1,45 @@
+# TurboTrader-AI Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Binance API
+ccxt>=3.1.0
+
+# Data fetching
+requests>=2.31.0
+requests-cache>=1.1.0
+
+# Database (optional, for persistence)
+sqlite3
+
+# Logging
+python-json-logger>=2.0.7
+
+# Utilities
+pytz>=2023.3
+python-dateutil>=2.8.2
+
+# API Server (Flask for web interface)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Command line interface
+click>=8.1.0
+colorama>=0.4.6
+
+# Type hints
+typings>=3.10.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Llama integration (local model)
+requests>=2.31.0  # Already listed but needed for Llama
+
+# Optional: For advanced backtesting
+backtrader>=1.9.76  # Can be added later
